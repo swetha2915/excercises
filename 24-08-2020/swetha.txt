@@ -1,0 +1,196 @@
+1)It gives error because main class is not given.So,it can be fixed by providing main class.
+
+public class Main
+
+  {
+     public static void main(String[] args) {
+
+      int x = 5;
+
+      while (x > 1) {
+
+          x = x + 1;
+
+          if (x < 3) {
+
+               System.out.println("small x");
+
+          }
+
+      }
+
+   }
+
+
+
+2)no compilation error
+
+class Digit
+{
+public static void main(String[] args) {
+
+      int x = 5;
+
+      while (x > 1) {
+
+          x = x + 1;
+
+          if (x < 3) {
+
+               System.out.println("big x");
+
+          }
+
+      }
+
+}
+
+3)it shows compilation error because there is no main method.it can be fixed using main method.
+
+class Loop
+{
+public static void main(String[] args) {
+
+                      int x = 5;
+
+                      while (x  > 1) 
+                        {
+
+                          x = x - 1;
+
+                          if (x < 3) 
+                        {
+
+                              System.out.println("small x");
+
+                        }
+
+      }
+
+}
+output:small x
+       small x
+4)
+     package swethu;
+     import java.util.Scanner;
+     public class Hello {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String name=sc.nextLine();
+		System.out.println("Hello "+name+"!");
+		System.out.println("It's been nice knowing you");
+		System.out.println("Goodbye "+name+"!");
+		
+
+        }
+	}
+
+
+5)
+
+     package swethu;
+     import java.util.Scanner;
+     public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		for(int i=0;i<n;i++)
+		{
+			for(int j=0;j<n;j++)
+			{
+				System.out.print("*");
+			}
+			
+			System.out.println();
+		}
+		
+		
+
+	}
+
+}
+
+6)program to print integers between 0 and 36
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		for(int i=0;i<=36;i++)
+		{
+			if(i>0 && i<36)
+			{
+				System.out.println(i);
+			}
+			System.out.println();
+		}
+	}
+
+}
+
+
+
+7) it will print Hello + name.Inorder to get HellORank the code will be like this
+   
+    public class HelloRank {
+
+    public static void main (String args[ ]) {     
+
+                  String name = "Rank";
+
+                  System.out.println("Hello" + name);
+
+                  }
+
+          } 
+	
+
+
+
+9)For radius = 1.0, area = 3.14
+  For radius = 1.5, area = 7.06
+  For radius = 2.0, area = 12.56
+
+
+10) import java.util.Scanner;
+    public class Main {
+	 public static void main(String[] args) {
+          Scanner sc = new Scanner(System.in);
+          double inches_number=sc.nextDouble();
+          final double d=2.54;
+          System.out.println("After converting inches ino centimeters we get "+(d*inches_number));
+        		  
+	         
+
+	     }
+
+	}
+11)
+
+    import java.util.Scanner;
+    public class Main {
+    public static void main (String args[ ]) {     
+
+                 Scanner sc =new Scanner(System.in);
+                 double hours=sc.nextDouble();
+                 long pay=sc.nextLong();
+                 System.out.println("Total pay is "+(hours*pay));
+                 
+                 } 
+}
+
+
+12)An exception thrown at runtime. 
+
+
+
+
+		
+			
+                        
+		
+
+
+
