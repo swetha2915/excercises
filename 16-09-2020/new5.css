@@ -1,0 +1,25 @@
+pre
+{
+    background-color:rgb(187, 19, 47);
+    border-style:solid;
+    border-color:black;
+    color:white;
+}
+text{
+   border-style:solid;
+   border-color: rgb(177, 23, 23);
+  text-decoration:underline;
+  font-size:50px;
+}
+
+th,td{
+    border-style:double;
+    width:35%;
+    text-align:center;
+    
+}
+body{
+    background-image:url('wall7.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
